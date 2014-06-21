@@ -1,0 +1,30 @@
+---README---
+CSCI 4229  
+Assignment 1
+Lorenz Attractor
+
+This introductory program uses OpenGL to plot the lorenz attractor.
+
+User Control:
+	escape key - close the program
+	Number '0' - Reset to original view
+	'+' - Zoom in on Attractor
+	'-' - Zoom out on attractor
+	'a' - Increase rho of Lorenz parameters
+	's' - Increase sigma of Lorenz parameters
+	'd' - Increase beta of Lorenz Parameters
+	'z' - Decrease rho of Lorenz parameters
+	'x' - Decrease sigma of Lorenz parameters
+	'c' - Decrease beta of Lorenz parameters
+	'r' - Reset attractor to initial chaotic conditions
+	space bar - begin a little animation which shows a particle 
+		following the trajectory of the solution to the current
+		lorenz system.
+	Angles of the view controlled by the arrow keys
+	
+Additional Information:
+	In addition to drawing the attractor, pressing the
+	spacebar animates a particle following the trajectory
+	of the solution. The the animation shows that the 
+	velocity increases substantially for as a particle
+	travels in chaotic conditions.
